@@ -124,7 +124,7 @@
   margin: 0;
 }
 
-.span_descrip {
+.two-columns__paragraph_span {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -286,6 +286,8 @@
   height: 877px;
   right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .logo_place_footer {
@@ -296,9 +298,9 @@
 .footer {
   display: flex;
   justify-content: center;
-  flex-basis: 711px;
   background-color: #1f1f1f;
   color: white;
+  min-height: 350px;
 }
 
 .footer__columns {
@@ -314,6 +316,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  flex-basis: 711px;
 }
 
 .footer__author {
@@ -325,7 +328,7 @@
   margin: 0;
 }
 
-.footer__column_heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -357,12 +360,12 @@
   padding-bottom: 16px;
 }
 
-.link_white-no-underline {
+.footer__link {
   text-decoration: none;
   color: white;
 }
 
-.ul_margin_zero {
+.footer__contacts-block {
   margin: 0;
   padding: 0;
 }
