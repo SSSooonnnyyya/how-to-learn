@@ -1,6 +1,6 @@
-.rotation__triangle {
+.rotation {
     animation-name: rotate;
     animation-timing-function: linear;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-  }
+ }
